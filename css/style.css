@@ -1,0 +1,117 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif
+}
+body
+{
+    background-color: #333333;
+    color: white;
+}
+.box 
+{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box .cont
+{
+    width: 30rem;
+    height: 34rem;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    background:linear-gradient(#38ef7d,#11998e);
+    border-radius: 10px;
+}
+.box .cont .search
+{
+    width: 100%;
+    height: 5rem;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+.box .cont .search input[type=text]
+{
+
+    width: 20rem;
+    height: 3rem;
+    margin-right: 1rem;
+    border-radius: 20px;
+    padding: 10px;
+    outline: none;
+    border: 0;
+}
+.box .cont .search button
+{
+    width:3rem;
+    aspect-ratio: 1;
+    border-radius: 50%;
+    /* border: 1px solid blue; */
+    margin-top: 0.1rem;
+    text-align: center;
+    border: 0;
+    cursor: pointer;
+}
+.box .cont .search button img
+{
+    width: 32%;
+    aspect-ratio: 1;
+    margin-top: 4px;
+
+}
+.box .cont .weather
+{
+    width: 100%;
+    height: 30rem;
+    /* border: 1px solid red;   */
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+}
+.box .cont .weather img
+{
+    /* border: 1px solid red; */
+    width: 12rem;
+    height: 12rem;
+}
+.box .cont .weather .temp , .city
+{
+    font-size: 3rem;
+}
+.box .cont .details
+{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 10px 15px;
+}
+.box .cont .details .col
+{
+    display: flex;
+}
+.box .cont .details .col img
+{
+    width: 3rem;
+    height: 3rem;
+    margin: 5px 11px;
+}
+.box .cont .details .col .inner .wind , .humidity
+{
+    margin: 3px;
+    font-size: 28px;
+    margin-top: -5px;
+}
+.box .cont .details .col .inner p:nth-child(2)
+{
+    font-size: 28px;
+}
